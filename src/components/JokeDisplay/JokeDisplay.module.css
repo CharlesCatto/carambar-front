@@ -1,0 +1,61 @@
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.jokeButton {
+	background-color: #ffff02;
+	color: #000;
+	border: 2px solid #fc0397;
+	padding: 12px 24px;
+	font-size: 1rem;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 4px;
+	transition: all 0.3s;
+}
+
+.jokeButton:hover {
+	background-color: #fc0397;
+	color: white;
+}
+
+.jokeButton:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+.jokeContent {
+	margin-top: 2rem;
+	padding: 1.5rem;
+	background-color: #f9f9f9;
+	border-radius: 8px;
+}
+
+.jokeQuestion {
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.answerButton {
+	background: none;
+	border: none;
+	color: #fc0397;
+	cursor: pointer;
+	text-decoration: underline;
+	font-size: 0.9rem;
+}
+
+.jokeAnswer {
+	margin-top: 1rem;
+	font-style: italic;
+	color: #333;
+}
+
+.error {
+	color: red;
+	margin-top: 1rem;
+}
